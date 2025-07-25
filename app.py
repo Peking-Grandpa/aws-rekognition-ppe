@@ -3,8 +3,8 @@ import boto3
 import os
 
 # --- S3 Configuration ---
-BUCKET_NAME = "ppe-detection-input"  # 你自己的 S3 bucket 名
-UPLOAD_PREFIX = "uploads/"           # 上传路径前缀
+BUCKET_NAME = "ppe-detection-input-v1"  # 你自己的 S3 bucket 名
+UPLOAD_PREFIX = "s3-sample-images/"           # 上传路径前缀
 
 # --- Streamlit 页面设置 ---
 st.set_page_config(page_title="AI-powered PPE Detection", page_icon="🦺", layout="centered")
